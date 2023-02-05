@@ -2,29 +2,50 @@
 }
 
 .friendImageAndText {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+
 
 }
 
 .friendImageAndText img {
-
+    width: 80px;
+    margin: 5px;
 }
 
 .friendText {
-
+    max-width: 500px;
+    border: solid lightgrey;
+    border-radius: 10px;
+    background: lightgrey;
+    color: black;
+    padding: 10px;
 }
 
 .friendText:after {
-
+    content: '';
+    position: absolute;
+    left: 75px;
+    bottom: 5px;
+    border: 10px solid transparent;
+    border-right: 20px solid lightgrey;
+    transform: rotate(90deg);
 }
 
 .friendName {
-
+font-weight: bold;
+    font-size: 110%;
 }
 
 .friendMessageText {
+    white-space: pre-wrap;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 .friendTime {
-
+padding-left: 19px;
 }
