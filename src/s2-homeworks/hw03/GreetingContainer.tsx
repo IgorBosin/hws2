@@ -18,11 +18,11 @@ export const pureAddUser = (name: string, setError: any, setName: (name: string)
 }
 
 export const pureOnBlur = (name: string, setError: (title: string) => void) => { // если имя пустое - показать ошибку
-    // name.trim() ? name : setError('Ошибка! Введите имя!')
+    if (!name.trim()) setError('Ошибка! Введите имя!')
 }
 
 export const pureOnEnter = (e: any, addUser: any) => { // если нажата кнопка Enter - добавить
-
+if (e.key==='Enter') addUser()
 }
 
 // более простой и понятный для новичков

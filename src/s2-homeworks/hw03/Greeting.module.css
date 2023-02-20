@@ -1,13 +1,18 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 .error {
 }
 
 .input {
+    width: 100px;
+
 }
 
 .input:focus {
