@@ -36,7 +36,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         ...restProps // все остальные пропсы попадут в объект restProps
     }
 ) => {
-    const [editMode, setEditMode] = useState<boolean>(false)
+    const [editMode, setEditMode] = useState<boolean>(true)
     const {children, onDoubleClick, className, defaultText, ...restSpanProps} =
     spanProps || {}
 
@@ -50,8 +50,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
         onBlur?.(e)
     }
-    const onDoubleClickCallBack = (
-        e: React.MouseEvent<HTMLSpanElement, MouseEvent>
+    const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>
     ) => {
         // включить editMode при двойном клике // делают студенты
 

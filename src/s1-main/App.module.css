@@ -1,9 +1,11 @@
 .App {
     --header_height: 60px;
+    margin: 0 70px;
+    position: relative;
 }
 
 .hw {
-padding: 5px;
+    padding: 5px;
 }
 
 .hwTitle {
