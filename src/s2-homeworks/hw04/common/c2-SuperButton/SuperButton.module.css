@@ -5,8 +5,7 @@
     border-radius: 3px;
     border: none;
 
-    color:white;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
@@ -14,13 +13,13 @@
 }
 
 .disabled {
-    color: grey;
-    background: white;
-    opacity: 0.5;
+    color: white;
+    background: #004D99;
+    opacity: 0.4;
 }
 
 .secondary {
-    color:cornflowerblue;
+    color: #0066CC;
     background: transparent;
     border: 1px solid cornflowerblue;
     border-radius: 3px;
@@ -45,7 +44,6 @@
 .secondary:hover {
     background: aliceblue;
 }
-
 
 .default:active {
     background: #0059b3;

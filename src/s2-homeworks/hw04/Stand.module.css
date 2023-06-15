@@ -1,10 +1,12 @@
 .stand {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding: 58px 0;
 }
 
 .inputs {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 48px;
