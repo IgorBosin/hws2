@@ -1,7 +1,7 @@
 /*свг и анимация*/
 .loader {
-    width: 90px;
-    height: 90px;
+    width: 108px;
+    height: 108px;
     background-image: url('/src/s2-homeworks/hw10/images/Loading.png'); /* Путь к изображению */
     animation: rotate 1s linear infinite; /* rotate - название анимации, 2s - продолжительность, linear - тип анимации, infinite - бесконечное выполнение */
     background-size: 100%;

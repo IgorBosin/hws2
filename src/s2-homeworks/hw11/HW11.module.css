@@ -2,7 +2,16 @@
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
+
 }
 
 .number {
+    width: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    word-wrap: break-word /*перенос длинных слов на след.строку*/
 }
