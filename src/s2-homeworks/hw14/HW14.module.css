@@ -1,7 +1,16 @@
 .tech {
+    display: block;
 
 }
 
 .loading {
-
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 252px;
+    color: #4D4D4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
